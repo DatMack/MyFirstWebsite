@@ -29,12 +29,17 @@ li{
 list-style-type: square;
 }
 
-.Title{
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+.title h1{
   background: #feb236;
   color: aliceblue;
   text-transform: uppercase;
   text-align: center;
-  padding: 10px 25px;
+  padding: 10px 100px;
   box-shadow: rgb(0 0 0 / 30%) 0px 3px 3px;
 }
 
