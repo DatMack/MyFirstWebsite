@@ -1,40 +1,41 @@
-body,html{
-	height: 100%;
-	width: 100%;
-	font-family: 'Shadows Into Light', cursive;
-	background: url(6.jpg) no-repeat center center fixed; 
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
- 	 background-size: cover;
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Shadows Into Light', cursive;
+  background: url(6.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-h1{
-	font-size: 3rem;
-	color: #feb236;
+h1 {
+  font-size: 3rem;
+  color: #feb236;
 }
 
-.buffer{
-	height: 10rem;
+.buffer {
+  height: 10rem;
 }
-hr{
-	 margin: 20px auto;
-    color: #feb236;
-    border: 2px solid #feb236;
-    max-width: 500px;
-    opacity: 1;  
-}
-
-li{
-list-style-type: square;
+hr {
+  margin: 20px auto;
+  color: #feb236;
+  border: 2px solid #feb236;
+  max-width: 500px;
+  opacity: 1;
 }
 
-.title{
+li {
+  list-style-type: square;
+}
+
+.title {
   display: flex;
   justify-content: center;
 }
 
-.title h1{
+.title h1 {
   background: #feb236;
   color: aliceblue;
   text-transform: uppercase;
@@ -43,70 +44,68 @@ list-style-type: square;
   box-shadow: rgb(0 0 0 / 30%) 0px 3px 3px;
 }
 
-.welcome{
+.welcome {
   color: aliceblue;
   position: relative;
 }
 
-.btn-xl{
-	padding: 1rem 2rem;
-	font-weight: 700;
-	border-radius: 300px;
-	text-transform: uppercase;
-
+.btn-xl {
+  padding: 1rem 2rem;
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
 }
 
-.btn-primary{
-	background-color: #feb236;
-	color: #6b5b95;
-	border-color:#feb236 ;
+.btn-primary {
+  background-color: #feb236;
+  color: #6b5b95;
+  border-color: #feb236;
 }
 
-.btn-primary:hover{
-	background-color:#6b5b95 ;
-	border-color: #6b5b95;
-	border-width: 4px;
+.btn-primary:hover {
+  background-color: #6b5b95;
+  border-color: #6b5b95;
+  border-width: 4px;
 }
 
-.Education{
+.Education {
   color: aliceblue;
 }
 
-.education-text{
+.education-text {
   padding-left: 1rem;
 }
 
-.education_text{
+.education_text {
   padding-left: 5rem;
 }
 
-.ed-text{
+.ed-text {
   padding-left: 4rem;
   padding-bottom: 1rem;
 }
 
-.work{
+.work {
   color: aliceblue;
 }
 
-.job-title{
+.job-title {
   text-decoration: underline;
   text-size-adjust: 10px;
 }
 
-.rto-text{
+.rto-text {
   padding-left: 4rem;
 }
 
-.team-text{
+.team-text {
   padding-left: 4rem;
 }
 
-.program{
+.program {
   color: aliceblue;
 }
 
-.projects{
+.projects {
   color: aliceblue;
 }
-
