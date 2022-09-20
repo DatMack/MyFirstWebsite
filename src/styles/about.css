@@ -1,0 +1,60 @@
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.title h1 {
+  background: #feb236;
+  color: aliceblue;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 100px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 3px 3px;
+}
+
+.welcome {
+  color: aliceblue;
+  position: relative;
+}
+
+.Education {
+  color: aliceblue;
+}
+
+.education-text {
+  padding-left: 1rem;
+}
+
+.education_text {
+  padding-left: 5rem;
+}
+
+.ed-text {
+  padding-left: 4rem;
+  padding-bottom: 1rem;
+}
+
+.work {
+  color: aliceblue;
+}
+
+.job-title {
+  text-decoration: underline;
+  text-size-adjust: 10px;
+}
+
+.rto-text {
+  padding-left: 4rem;
+}
+
+.team-text {
+  padding-left: 4rem;
+}
+
+.program {
+  color: aliceblue;
+}
+
+.projects {
+  color: aliceblue;
+}

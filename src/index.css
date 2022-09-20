@@ -1,0 +1,50 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Shadows Into Light', cursive;
+  background: url(./background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #feb236;
+}
+
+.buffer {
+  height: 10rem;
+}
+hr {
+  margin: 20px auto;
+  color: #feb236;
+  border: 2px solid #feb236;
+  max-width: 500px;
+  opacity: 1;
+}
+
+li {
+  list-style-type: square;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: #feb236;
+  color: #6b5b95;
+  border-color: #feb236;
+}
+
+.btn-primary:hover {
+  background-color: #6b5b95;
+  border-color: #6b5b95;
+  border-width: 4px;
+}

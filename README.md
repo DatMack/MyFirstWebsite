@@ -1,3 +1,0 @@
-# MyFirstWebsite
-My First Website using HTML and CSS
-A work in Progress.... 
