@@ -4,57 +4,83 @@
 }
 
 .title h1 {
-  background: #feb236;
+  /* background: #feb236;
   color: aliceblue;
   text-transform: uppercase;
   text-align: center;
   padding: 10px 100px;
-  box-shadow: rgb(0 0 0 / 30%) 0px 3px 3px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 3px 3px; */
 }
 
 .welcome {
   color: aliceblue;
-  position: relative;
+  text-align: center;
+  font-size: 25px;
 }
 
-.Education {
-  color: aliceblue;
+.education {
+  text-decoration: underline;
+  text-align: center;
+  padding-right: 3rem;
+  padding-bottom: 0%;
 }
-
-.education-text {
-  padding-left: 1rem;
-}
-
-.education_text {
-  padding-left: 5rem;
-}
-
 .ed-text {
-  padding-left: 4rem;
-  padding-bottom: 1rem;
-}
-
-.work {
-  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding-bottom: 0.5rem;
 }
 
 .job-title {
   text-decoration: underline;
   text-size-adjust: 10px;
+  text-align: left;
+  font-size: 30px;
 }
-
-.rto-text {
+.job-text {
+  text-align: left;
   padding-left: 4rem;
+  font-size: 20px;
+  padding-right: 2rem;
 }
 
-.team-text {
-  padding-left: 4rem;
+.company {
+  font-weight: 900;
+  text-align: left;
+  font-size: 40px;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
-.program {
-  color: aliceblue;
+.Section__item {
+  text-align: left;
+  margin: 0 0 45px;
 }
 
-.projects {
-  color: aliceblue;
+.Section__item:last-child {
+  margin: 0;
+}
+
+.Section__item-header {
+  line-height: 1;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0 0 10px;
+}
+
+.Section__item-content {
+  /* margin-left: 25px; */
+  margin: 0 0 30px;
+}
+
+.Section__item-subheader {
+  line-height: 1;
+  text-decoration: underline;
+  font-size: 30px;
+  margin: 0 0 10px;
+}
+
+.Section__item-description {
+  font-size: 20px;
 }

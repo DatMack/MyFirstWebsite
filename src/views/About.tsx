@@ -1,76 +1,98 @@
-import { useState } from 'react';
+import { Section } from '../components/Section';
 import '../styles/about.css';
 
 const AboutView = () => {
-  const [visible, setVisible] = useState(false);
-
   return (
     <div className='container'>
-      <div className='title'>
-        <h1>John Schloss</h1>
-      </div>
+      <h1 className='title'>John Schloss</h1>
+
+      <img
+        src='https://www.placecage.com/300/300'
+        alt=''
+        style={{
+          borderRadius: 999,
+          margin: 25,
+          border: '8px solid #fff',
+          boxShadow: '0 0 8px rgb(0 0 0 / 60%)',
+        }}
+      />
+
+      <h1 className='title'>Artist/Developer</h1>
       <p className='welcome'>Hello, Thank you for taking the time to check out my website!</p>
 
-      <div className='Education'>
-        <h1 className='ed' onClick={() => setVisible(!visible)}>
-          Education
-        </h1>
-
-        {visible && (
-          <div className='education-text'>
-            <ul className='education' style={{ fontSize: '2vw' }}>
-              <strong>Vincennes Univeristiy</strong>
-            </ul>
-            <li className='ed-text'>Networking and Telecommunications - 2009 to 2010</li>
-            <ul className='education' style={{ fontSize: '2vw' }}>
-              <strong>Columbus State Community College</strong>
-            </ul>
-            <li className='ed-text'>General Studies - 2014 to 2015</li>
-            <ul className='education' style={{ fontSize: '2vw' }}>
-              <strong>The Ohio State Universtiy</strong>
-            </ul>
-            <li className='ed-text'>Computer Science - 2015</li>
+      <Section title='Education' visible={false}>
+        <div className='Section__item'>
+          <div className='Section__item-header'>Vincennes University</div>
+          <div className='Section__item-content'>
+            <div className='Section__item-subheader'>Networking and Telecommunications - 2009 to 2010</div>
           </div>
-        )}
-      </div>
-      <div className='work'>
-        <h1 className='text-center col-12'>Work Experience</h1>
-        <ol>
-          <h3 className='Army'>United States Army</h3>
-          <ul className='job-title'>Infantry Radio Telecommunications Operator - 2011 to 2012</ul>
+        </div>
+        <div className='Section__item'>
+          <div className='Section__item-header'>Columbus State Community College</div>
+          <div className='Section__item-content'>
+            <div className='Section__item-subheader'>General Studies - 2014 to 2015</div>
+          </div>
+        </div>
+        <div className='Section__item'>
+          <div className='Section__item-header'>The Ohio State Universtiy</div>
+          <div className='Section__item-content'>
+            <div className='Section__item-subheader'>Computer Science - 2015</div>
+          </div>
+        </div>
+      </Section>
 
-          <div className='rto-text'>
-            <li>
-              Tasked with mainting and operating radio equipment while deployed in a combat enviorment. Responsible for
-              $3,000,000 worth of sensitive equipment
-            </li>
-            <li>
-              Learned to communicate and provide up to date information to command when in stressful situations to help
-              get aid to soldiers in combat situations
-            </li>
+      <Section title='Work Experience' visible={false}>
+        <div className='Section__item'>
+          <div className='Section__item-header'>United States Army</div>
+          <div className='Section__item-content'>
+            <div className='Section__item-subheader'>Infantry Radio Telecommunications Operator - 2011 to 2012</div>
+            <div className='Section__item-description'>
+              In charge and responsible for my platoons radio Equipment worth up to $900,000. Had to communicate under
+              stressful situations and make sure the equipment stayed operational during combat missions in afghanistan.
+              Also had to use satelite telecommunications to relay information to other units to make sure we had the
+              right ammount of support for our missions.
+            </div>
           </div>
 
-          <ul className='job-title'>Infantry Team Leader - 2012 to 2014</ul>
-          <div className='team-text'>
-            <li>Responsible for training and maintaing morale and health of young soldiers</li>
-            <li>Tasked with ensuring that soldiers are combat ready</li>
-            <li>
-              Responsible for maintaing soldiers promtion packets, awards and ensuring that there counseling packets
-              were up to date on a monthly basis
-            </li>
+          <div className='Section__item-content'>
+            <div className='Section__item-subheader'>Infantry Team Leader - 2012 to 2014</div>
+            <div className='Section__item-description'>
+              In charge of training and maintaing the health of four other soldiers. Making sure they had the proper
+              knowledge and skills to sucessfully operate in combat enviorments. My job was to help them not only grow
+              as soldiers but as people too. I have been to many Army leadership courses that have helped me learn how
+              to be a better leader and that training has transfered over to the work enviorment and helped me become a
+              strong worker and leader in the civilian workforce as well.
+            </div>
           </div>
-        </ol>
+        </div>
 
-        <ol>
-          <h3 className='pacmoore'>PacMoore Process Technoligies</h3>
-          <ul className='job-title'>Forklift Driver 2021 to 2022</ul>
-          <ul className='job-title'>Warehouse Management 2022 to Present</ul>
-        </ol>
-      </div>
+        <div className='Section__item'>
+          <div className='Section__item-header'>PacMoore Process Technoligies</div>
+          <div className='Section__item-content'>
+            <div className='Section__item-subheader'>Forklift Driver 2021 to 2022</div>
+            <div className='Section__item-description'>
+              Tasked with making sure plant production team had materails on time, and move product out the system in a
+              timely manner so they could continue to produce prodcut. Also in charge of cleaning up the production area
+              and keeping it up to industry standards for food production.
+            </div>
+          </div>
+        </div>
 
-      <div className='program'>
-        <h1 className='text-center col-12'>Programming Experience</h1>
-      </div>
+        <div className='Section__item'>
+          <div className='Section__item-content'>
+            <div className='Section__item-subheader'>Warehouse Management 2022 to Present</div>
+            <div className='Section__item-description'>
+              In charge of prodcut stored in the Warehouse, making sure that what was produced was stored in the
+              warehouse properly and ready to be shipped to the customer in a timely fashion. Also made sure that
+              product was seperated by, also in charge of disposing of, or destoying bad product.
+            </div>
+          </div>
+        </div>
+      </Section>
+
+      <Section title='Programming Experience' visible={false}>
+        <p>palce holder</p>
+      </Section>
     </div>
   );
 };

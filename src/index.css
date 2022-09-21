@@ -27,7 +27,7 @@ hr {
 }
 
 li {
-  list-style-type: square;
+  list-style-type: none;
 }
 
 .btn-xl {

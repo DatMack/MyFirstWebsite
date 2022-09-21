@@ -1,0 +1,23 @@
+.Section {
+  color: aliceblue;
+}
+
+.Section__header {
+  background: #feb236;
+  color: aliceblue;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 100px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 3px 3px;
+  cursor: pointer;
+}
+
+.Section__content {
+  background-color: rgba(254, 178, 54, 0.7);
+  padding: 35px;
+  margin-bottom: 45px;
+}
+
+.Section:last-child .Section__content {
+  margin: 0;
+}
