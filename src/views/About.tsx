@@ -7,7 +7,7 @@ const AboutView = () => {
       <h1 className='title'>John Schloss</h1>
 
       <img
-        src='https://www.placecage.com/300/300'
+        src='john.jpeg'
         alt=''
         style={{
           borderRadius: 999,
@@ -22,19 +22,28 @@ const AboutView = () => {
 
       <Section title='Education' visible={false}>
         <div className='Section__item'>
-          <div className='Section__item-header'>Vincennes University</div>
+          <div className='Section__item-header'>
+            <img className='image__bullet' src='vincennes.png' alt='' />
+            Vincennes University
+          </div>
           <div className='Section__item-content'>
             <div className='Section__item-subheader'>Networking and Telecommunications - 2009 to 2010</div>
           </div>
         </div>
         <div className='Section__item'>
-          <div className='Section__item-header'>Columbus State Community College</div>
+          <div className='Section__item-header'>
+            <img className='image__bullet' src='cscc.png' alt='' />
+            Columbus State Community College
+          </div>
           <div className='Section__item-content'>
             <div className='Section__item-subheader'>General Studies - 2014 to 2015</div>
           </div>
         </div>
         <div className='Section__item'>
-          <div className='Section__item-header'>The Ohio State Universtiy</div>
+          <div className='Section__item-header'>
+            <img className='image__bullet' src='osu.png' alt='' />
+            The Ohio State Universtiy
+          </div>
           <div className='Section__item-content'>
             <div className='Section__item-subheader'>Computer Science - 2015</div>
           </div>
@@ -91,7 +100,11 @@ const AboutView = () => {
       </Section>
 
       <Section title='Programming Experience' visible={false}>
-        <p>palce holder</p>
+        <img className='image' src='html5.png' alt='' />
+        <img className='image' src='css3.png' alt='' />
+        <img className='image' src='java.png' alt='' />
+        <img className='image' src='react.png' alt='' />
+        <img className='image' src='node.png' alt='' />
       </Section>
     </div>
   );

@@ -3,15 +3,6 @@
   justify-content: center;
 }
 
-.title h1 {
-  /* background: #feb236;
-  color: aliceblue;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 10px 100px;
-  box-shadow: rgb(0 0 0 / 30%) 0px 3px 3px; */
-}
-
 .welcome {
   color: aliceblue;
   text-align: center;
@@ -83,4 +74,18 @@
 
 .Section__item-description {
   font-size: 20px;
+}
+
+.image {
+  display: flexbox;
+  height: 200px;
+  width: 250px;
+  padding-right: 3rem;
+  margin-left: 50px;
+}
+
+.image__bullet {
+  height: 50px;
+  width: 80px;
+  padding-right: 1rem;
 }
