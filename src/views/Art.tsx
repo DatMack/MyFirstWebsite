@@ -18,7 +18,7 @@ const ArtView = () => {
       />
       <h1 className='welcome'>
         Welcome to my gallery! Here I have a collection of recent and old drawings and tattoos that I have done. If you
-        are interested in contacting me about my work please don't hesitate to send me a message. Please check my
+        are interested in contacting me about my work please don\'t hesitate to send me a message. Please check my
         schedule to see if I have any openings for tattoo sessions, I update it regularly.
       </h1>
       <Section title='Art' visible={false}>
