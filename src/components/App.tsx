@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { AboutView } from '../views/About';
-
+import { ArtView } from '../views/Art';
 import { HomeView } from '../views/Home';
 
 import './App.css';
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route index element={<HomeView name='John' />} />
         <Route path='/about' element={<AboutView />} />
-        {/* <Route path='/art' element={<ArtView />} /> */}
+        <Route path='/art' element={<ArtView />} />
       </Routes>
     </BrowserRouter>
   );
