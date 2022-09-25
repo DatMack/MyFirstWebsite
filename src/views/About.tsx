@@ -21,7 +21,14 @@ const AboutView = () => {
       />
 
       <h1 className='title'>Artist/Developer</h1>
-      <p className='welcome'>Hello, Thank you for taking the time to check out my website!</p>
+      <p className='welcome'>
+        Hello, my name is John. I am an amateur web developer who loves to learn and tackle new things. There is no
+        problem too big that I won't try and take on; I enjoy a good challenge. I am also an Afghanistan combat veteran
+        , just trying to make my way through this life and continue growing and learning new skills and trades. I like
+        to mix my artistic mind with designing web pages; I also shoot tattoos as a hobby and do freelance artwork for
+        anyone interested, so please feel free to check out my artwork. Thanks for taking the time to check out my
+        website, and feel free to contact me with any questions or requests!
+      </p>
 
       <Section title='Education' visible={false}>
         <div className='Section__item'>

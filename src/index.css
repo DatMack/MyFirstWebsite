@@ -3,7 +3,8 @@ html {
   height: 100%;
   width: 100%;
   font-family: 'Shadows Into Light', cursive;
-  background: url(./background.jpg) no-repeat center center fixed;
+  /* background: url(./background.jpg) no-repeat center center fixed; */
+  background-color: #6b5b95;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
