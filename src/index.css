@@ -48,3 +48,11 @@ li {
   border-color: #6b5b95;
   border-width: 4px;
 }
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+  color: aliceblue;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}

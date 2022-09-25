@@ -4,6 +4,9 @@ import '../styles/art.css';
 const ArtView = () => {
   return (
     <div className='container'>
+      <a href='/' className='material-symbols-outlined'>
+        home
+      </a>
       <h1>Art Gallery</h1>
       <img
         className='header-image'
@@ -18,7 +21,7 @@ const ArtView = () => {
       />
       <h1 className='welcome'>
         Welcome to my gallery! Here I have a collection of recent and old drawings and tattoos that I have done. If you
-        are interested in contacting me about my work please dont hesitate to send me a message. Please check my
+        are interested in contacting me about my work please do not hesitate to send me a message. Please check my
         schedule to see if I have any openings for tattoo sessions, I update it regularly.
       </h1>
       <Section title='Art' visible={false}>
