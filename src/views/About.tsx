@@ -4,7 +4,7 @@ import '../styles/about.css';
 const AboutView = () => {
   return (
     <div className='container'>
-      <a href='' className='material-symbols-outlined'>
+      <a href='/' className='material-symbols-outlined'>
         home
       </a>
       <h1 className='title'>John Schloss</h1>

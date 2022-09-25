@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
+import '../styles/home.css';
 
-const HomeView = ({ name }) => {
+const HomeView = () => {
   return (
-    <div className='container'>
+    <div className='container-home'>
       <div className='row'>
         <header className=''>
           <h1 className='text-uppercase'>

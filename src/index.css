@@ -30,6 +30,14 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #feb236;
+}
+
 .btn-xl {
   padding: 1rem 2rem;
   font-weight: 700;
@@ -55,4 +63,5 @@ li {
   display: flex;
   justify-content: left;
   align-items: left;
+  font-size: 40px;
 }
