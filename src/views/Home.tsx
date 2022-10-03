@@ -17,8 +17,8 @@ const HomeView = () => {
               About Me
             </a>
 
-            <a href='https://mailchi.mp/bddb8d4629ab/startup' className=' btn btn-primary btn-xl'>
-              Mailing List
+            <a href='mailto:j.schloss09@icloud.com' className=' btn btn-primary btn-xl'>
+              Contact Me
             </a>
 
             <a href='/art' className=' btn btn-primary btn-xl'>

@@ -50,6 +50,7 @@ a:hover {
   background-color: #feb236;
   color: #6b5b95;
   border-color: #feb236;
+  margin: 5px;
 }
 
 .btn-primary:hover {
