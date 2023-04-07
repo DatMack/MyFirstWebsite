@@ -75,11 +75,11 @@ const AboutView = () => {
 
         <div className='Section__item'>
           <div className='Section__item-content'>
-            <div className='Section__item-subheader'>Warehouse Management 2022 to Present</div>
+            <div className='Section__item-subheader'>Extrusion Team Lead 2022 to Present</div>
             <div className='Section__item-description'>
-              In charge of prodcut stored in the Warehouse, making sure that what was produced was stored in the
-              warehouse properly and ready to be shipped to the customer in a timely fashion. Also made sure that
-              product was seperated by, also in charge of disposing of, or destoying bad product.
+              Provides training and guidance to other extrusion operators. Troubleshoots complex equipment failures;
+              processes; assures complete compliance with S.O.P.’s and reports issues/potential issues to the Shift
+              Supervisor and/or Production Manager.
             </div>
           </div>
         </div>
